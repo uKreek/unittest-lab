@@ -1,5 +1,17 @@
 {
-    "require-dev": {
-        "phpunit/phpunit": "^9.6"
+    "name": "formalin/unittest-lab",
+    "autoload": {
+        "psr-4": {
+            "Formalin\\UnittestLab\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Merkulova Elizaveta",
+            "email": "kurlyk013@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.10"
     }
 }
