@@ -2,7 +2,7 @@
   web:
     build: .
     ports:
-      - '8080:80'
+      - '8081:80'
     volumes:
       - .:/app
     depends_on:
@@ -14,4 +14,4 @@
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: test_db
     ports:
-      - '3306:3306'
+      - '3307:3306'

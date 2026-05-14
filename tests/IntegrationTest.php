@@ -34,8 +34,8 @@ class IntegrationTest extends TestCase
 
         $this->assertEquals(0, $student->getCount());
 
-        $student->add("Alex");
-        $student->add("Elena");
+        $student->add("Maxim");
+        $student->add("Ruslan");
 
         $this->assertEquals(2, $student->getCount());
     }
